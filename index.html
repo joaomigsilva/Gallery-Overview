@@ -1,20 +1,34 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Cloud-data Management_Gallery</title>
+		<title>Gallery Overview</title>
+                <style>
+                        body { margin: 0; color: black }
+                        canvas { width: 100%; height: 100%; }
+                        input {width: 90%;}
+                        #container {position: relative;}
+                        #container canvas, #overlay { position: absolute;}
+                        #overlay {z-index: 1; width: 20vw; height: 100vh; background-color: rgba(248, 122, 122, 0.8);margin: 5}
+                        
+                    </style>
 	</head>
-	<body>
-        <h1>Digital Tools for Cloud-based Data Management</h1>
-        <h2>Joao Silva</h2>
-        <!-- We can embed content from another with several different html elements -->
-        <!-- Here is a decent comparison -->
-        <!-- https://stackoverflow.com/a/21115112/2179399 -->
-        <h2>L1// The Village Simulator</h2>
+	<body style="background-color:rgb(109, 109, 109)">
+        <h1 style="padding-left: 5% ; color:white;">Digital Tools for Cloud-based Data Management</h1>
+        <h2 style="padding-left: 5% ; color:rgb(194, 194, 194);">Joao Silva</h2>
+
+        <h2 style="padding-left: 5% ; color:white;">L1// The Village Simulator</h2>
+        <h4 style="padding-left: 5% ;color:rgb(194, 194, 194);">This exercise was a gamified attempted to mimic how a grasshopper definition would run on the web, using only jpegs controlled by the sliders</h4>
         <iframe src="https://joaomigsilva.github.io/lecture1/example3/" width="100%" height="1000"></iframe>
-        <h2>L2// Patio Layout</h2>
+        <h2 style="padding-left: 5% ;color:white;">L2// Patio Layout</h2>
+        <h4 style="padding-left: 5% ;color:rgb(194, 194, 194);">This exercise was an experiment with loading 3dm files and interacting with them through the browser. In this case, a control panel allows you to toggle the visibility of two layers where the different design options for a school patio live.</h4>
         <embed src="https://joaomigsilva.github.io/lecture2/example3/" width="100%" height="1500"></embed>
-        <h2>L3// AnyTable</h2>
+        <h2 style="padding-left: 5% ;color:white;">L3// AnyTable</h2>
+        <h4 style="padding-left: 5% ;color:rgb(194, 194, 194);">This exercise is the first attempt at running a grasshopper definition on the web for a table configurator. Or ALL the tables.</h4>
         <embed src="https://joaomigsilva.github.io/lecture3/example2/" width="100%" height="1000"></embed>
+        <h2 style="padding-left: 5% ;color:white;">PIN-UP// The Dieckmann Generator</h2>
+        <h4 style="padding-left: 5% ;color:rgb(194, 194, 194);">Erich Dieckmann (1986-1944) was one of the most prominent designers from the Bauhaus. His profile chairs studies was the inspiration for a design tool that allows you to appropriate his designs and build your own.</h4>
+        <embed src="https://appserverjoaosilva.herokuapp.com/examples/dieckmann/" width="100%" height="1000"></embed>
 	</body>
 </html>
